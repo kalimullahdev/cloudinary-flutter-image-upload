@@ -1,7 +1,5 @@
 # cloudinary-flutter-image-upload
 
-cloudinary flutter image upload
-
 // Dependencies cloudinary_public, image_picker
 
 Future<void> imageUploadUsingCloudinaryPublic() async {
