@@ -2,6 +2,8 @@
 
 // Dependencies cloudinary_public, image_picker
 
+
+```
 Future<void> imageUploadUsingCloudinaryPublic() async {
     final ImagePicker picker = ImagePicker();
     final XFile? pickedImage = await picker.pickImage(
@@ -33,11 +35,11 @@ Future<void> imageUploadUsingCloudinaryPublic() async {
       print("cloudinary failure ${e.request}");
     }
   }
-
+```
 
 // Dependencies cloudinary_sdk, image_picker
 
-
+```
 Future<void> imageUploadUsingCloudinarySdk() async {
     final ImagePicker picker = ImagePicker();
               final XFile? pickedImage = await picker.pickImage(
@@ -75,3 +77,4 @@ Future<void> imageUploadUsingCloudinarySdk() async {
                 print('Get your image from with ${response.secureUrl}');
               }
       }
+```
