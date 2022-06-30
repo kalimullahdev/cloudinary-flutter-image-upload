@@ -1,6 +1,6 @@
 # cloudinary-flutter-image-upload
 
-// Dependencies cloudinary_public, image_picker
+##Dependencies cloudinary_public, image_picker
 
 
 ```
@@ -37,7 +37,7 @@ Future<void> imageUploadUsingCloudinaryPublic() async {
   }
 ```
 
-// Dependencies cloudinary_sdk, image_picker
+##Dependencies cloudinary_sdk, image_picker
 
 ```
 Future<void> imageUploadUsingCloudinarySdk() async {
