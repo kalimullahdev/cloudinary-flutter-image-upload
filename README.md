@@ -17,8 +17,8 @@ Future<void> imageUploadUsingCloudinaryPublic() async {
       // Image.file(File())
     }
     final cloudinary = CloudinaryPublic(
-      'dgj5m6kvt',
-      'wbx53z2u',
+      'Your Upload preset here',
+      'Cloud Name',
       cache: false,
     );
     try {
@@ -53,9 +53,9 @@ Future<void> imageUploadUsingCloudinarySdk() async {
                 // Image.file(File())
               }
               final cloudinary = Cloudinary.full(
-                apiKey: "932669714294851",
-                apiSecret: "i4Vv1wjaFGLbhcg_qGUjpviPbzk",
-                cloudName: "dgj5m6kvt",
+                apiKey: "apiKey",
+                apiSecret: "apiSecret",
+                cloudName: "Cloud Name",
               );
 
               final response = await cloudinary.uploadResource(
